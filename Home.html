@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Store Manager</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/015/707/696/small_2x/eshop-or-online-shopping-logo-also-estore-logo-design-vector.jpg" alt="Logo" class="logo" />
+        <h1 class="title">STORE MANAGER: KEEP TRACK OF INVENTORY</h1>
+        <div class="login-info" id="loginInfo"></div>
+    </nav>
+    <div class="nav-secondary">
+        <a href="Home.html" class="active">HOME</a>
+        <a href="AddInventory.html">ADD INVENTORY</a>
+        <a href="Category.html">CATEGORY</a>
+        <a href="SaleHistory.html">SALE HISTORY</a>
+        <a href="YourCart.html">YOUR CART</a>
+    </div>
+    <main>
+        <div class="search-bar">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search by product or category">
+        </div>
+        <select id="categoryFilter" class="category-dropdown">
+            <option value="">All Categories</option>
+        </select>
+        <div class="products-container" id="productsContainer"></div>
+        <button class="checkout-btn" id="orderBtn" style="display:none;">Order Now</button>
+    </main>
+    <script src="Home.js"></script>
+</body>
+
+</html>

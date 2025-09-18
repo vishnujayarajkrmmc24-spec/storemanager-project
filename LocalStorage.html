@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Local Storage | Store Manager</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/015/707/696/small_2x/eshop-or-online-shopping-logo-also-estore-logo-design-vector.jpg" alt="Logo" class="logo" />
+        <h1 class="title">STORE MANAGER: KEEP TRACK OF INVENTORY</h1>
+    </nav>
+    <main>
+        <h2 class="page-title">Local Storage Data</h2>
+        <div>
+            <button class="submit-btn" onclick="clearStore()">Clear All Data</button>
+            <button class="submit-btn" onclick="exportStore()">Export Data</button>
+        </div>
+        <pre id="storageData" style="background:#fff9c4;padding:18px;border-radius:20px;margin-top:20px;"></pre>
+    </main>
+    <script src="LocalStorage.js"></script>
+</body>
+
+</html>
